@@ -1,0 +1,10 @@
+Command line:
+   nBitCounter_TB_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51091
+
+Mon Feb 22 12:52:12 2016
+
+
+ Elaboration Time: 0.0624 sec

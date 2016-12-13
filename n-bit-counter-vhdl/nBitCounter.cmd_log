@@ -1,0 +1,57 @@
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/counter/nBitCounter/nBitCounter.xst" -ofn "C:/Users/vthangar/Documents/counter/nBitCounter/nBitCounter.syr" 
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/counter/nBitCounter/nBitCounter.xst" -ofn "C:/Users/vthangar/Documents/counter/nBitCounter/nBitCounter.syr" 
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/counter/nBitCounter/nBitCounter.xst" -ofn "C:/Users/vthangar/Documents/counter/nBitCounter/nBitCounter.syr" 
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/counter/nBitCounter/nBitCounter.xst" -ofn "C:/Users/vthangar/Documents/counter/nBitCounter/nBitCounter.syr" 
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/counter/nBitCounter/nBitCounter.xst" -ofn "C:/Users/vthangar/Documents/counter/nBitCounter/nBitCounter.syr" 
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/counter/nBitCounter/nBitCounter.xst" -ofn "C:/Users/vthangar/Documents/counter/nBitCounter/nBitCounter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nBitCounter_UCF.ucf -p xc6slx16-csg324-3 nBitCounter.ngc nBitCounter.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o nBitCounter_map.ncd nBitCounter.ngd nBitCounter.pcf 
+par -w -intstyle ise -ol high -mt off nBitCounter_map.ncd nBitCounter.ncd nBitCounter.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml nBitCounter.twx nBitCounter.ncd -o nBitCounter.twr nBitCounter.pcf -ucf nBitCounter_UCF.ucf 
+bitgen -intstyle ise -f nBitCounter.ut nBitCounter.ncd 
+bitgen -intstyle ise -f nBitCounter.ut nBitCounter.ncd 
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/counter/nBitCounter/nBitCounter.xst" -ofn "C:/Users/vthangar/Documents/counter/nBitCounter/nBitCounter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nBitCounter_UCF.ucf -p xc6slx16-csg324-3 nBitCounter.ngc nBitCounter.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o nBitCounter_map.ncd nBitCounter.ngd nBitCounter.pcf 
+par -w -intstyle ise -ol high -mt off nBitCounter_map.ncd nBitCounter.ncd nBitCounter.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml nBitCounter.twx nBitCounter.ncd -o nBitCounter.twr nBitCounter.pcf -ucf nBitCounter_UCF.ucf 
+bitgen -intstyle ise -f nBitCounter.ut nBitCounter.ncd 
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/counter/nBitCounter/nBitCounter.xst" -ofn "C:/Users/vthangar/Documents/counter/nBitCounter/nBitCounter.syr" 
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/counter/nBitCounter/nBitCounter.xst" -ofn "C:/Users/vthangar/Documents/counter/nBitCounter/nBitCounter.syr" 
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/counter/nBitCounter/nBitCounter.xst" -ofn "C:/Users/vthangar/Documents/counter/nBitCounter/nBitCounter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nBitCounter_UCF.ucf -p xc6slx16-csg324-3 nBitCounter.ngc nBitCounter.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o nBitCounter_map.ncd nBitCounter.ngd nBitCounter.pcf 
+par -w -intstyle ise -ol high -mt off nBitCounter_map.ncd nBitCounter.ncd nBitCounter.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml nBitCounter.twx nBitCounter.ncd -o nBitCounter.twr nBitCounter.pcf -ucf nBitCounter_UCF.ucf 
+bitgen -intstyle ise -f nBitCounter.ut nBitCounter.ncd 
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/counter/nBitCounter/nBitCounter.xst" -ofn "C:/Users/vthangar/Documents/counter/nBitCounter/nBitCounter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nBitCounter_UCF.ucf -p xc6slx16-csg324-3 nBitCounter.ngc nBitCounter.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o nBitCounter_map.ncd nBitCounter.ngd nBitCounter.pcf 
+par -w -intstyle ise -ol high -mt off nBitCounter_map.ncd nBitCounter.ncd nBitCounter.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml nBitCounter.twx nBitCounter.ncd -o nBitCounter.twr nBitCounter.pcf -ucf nBitCounter_UCF.ucf 
+bitgen -intstyle ise -f nBitCounter.ut nBitCounter.ncd 
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/counter/nBitCounter/nBitCounter.xst" -ofn "C:/Users/vthangar/Documents/counter/nBitCounter/nBitCounter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nBitCounter_UCF.ucf -p xc6slx16-csg324-3 nBitCounter.ngc nBitCounter.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o nBitCounter_map.ncd nBitCounter.ngd nBitCounter.pcf 
+par -w -intstyle ise -ol high -mt off nBitCounter_map.ncd nBitCounter.ncd nBitCounter.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml nBitCounter.twx nBitCounter.ncd -o nBitCounter.twr nBitCounter.pcf -ucf nBitCounter_UCF.ucf 
+bitgen -intstyle ise -f nBitCounter.ut nBitCounter.ncd 
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/counter/nBitCounter/nBitCounter.xst" -ofn "C:/Users/vthangar/Documents/counter/nBitCounter/nBitCounter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nBitCounter_UCF.ucf -p xc6slx16-csg324-3 nBitCounter.ngc nBitCounter.ngd  
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/counter/nBitCounter/nBitCounter.xst" -ofn "C:/Users/vthangar/Documents/counter/nBitCounter/nBitCounter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nBitCounter_UCF.ucf -p xc6slx16-csg324-3 nBitCounter.ngc nBitCounter.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o nBitCounter_map.ncd nBitCounter.ngd nBitCounter.pcf 
+par -w -intstyle ise -ol high -mt off nBitCounter_map.ncd nBitCounter.ncd nBitCounter.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml nBitCounter.twx nBitCounter.ncd -o nBitCounter.twr nBitCounter.pcf -ucf nBitCounter_UCF.ucf 
+bitgen -intstyle ise -f nBitCounter.ut nBitCounter.ncd 
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/counter/nBitCounter/nBitCounter.xst" -ofn "C:/Users/vthangar/Documents/counter/nBitCounter/nBitCounter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nBitCounter_UCF.ucf -p xc6slx16-csg324-3 nBitCounter.ngc nBitCounter.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o nBitCounter_map.ncd nBitCounter.ngd nBitCounter.pcf 
+par -w -intstyle ise -ol high -mt off nBitCounter_map.ncd nBitCounter.ncd nBitCounter.pcf 
+bitgen -intstyle ise -f nBitCounter.ut nBitCounter.ncd 
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/counter/nBitCounter/nBitCounter.xst" -ofn "C:/Users/vthangar/Documents/counter/nBitCounter/nBitCounter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nBitCounter_UCF.ucf -p xc6slx16-csg324-3 nBitCounter.ngc nBitCounter.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o nBitCounter_map.ncd nBitCounter.ngd nBitCounter.pcf 
+par -w -intstyle ise -ol high -mt off nBitCounter_map.ncd nBitCounter.ncd nBitCounter.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml nBitCounter.twx nBitCounter.ncd -o nBitCounter.twr nBitCounter.pcf -ucf nBitCounter_UCF.ucf 
+bitgen -intstyle ise -f nBitCounter.ut nBitCounter.ncd 

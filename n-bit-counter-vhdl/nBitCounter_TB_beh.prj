@@ -1,0 +1,2 @@
+vhdl work "nBitCounter.vhd"
+vhdl work "nBitCounter_TB.vhd"

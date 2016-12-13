@@ -1,0 +1,8 @@
+NET clk LOC=T10;
+
+NET clr LOC=D9;
+
+NET q[0] LOC=U16;
+NET q[1] LOC=V16;
+NET q[2] LOC=U15;
+NET q[3] LOC=V15;
